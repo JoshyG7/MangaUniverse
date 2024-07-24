@@ -1,0 +1,165 @@
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+*{
+  text-transform: capitalize;
+  transition: all .2s linear;
+}
+.BoxInfo{
+  background-color: rgb(64, 61, 61);
+  position: fixed;
+  top: 1px;
+  left: 1px;
+  padding-left: 10px;
+  border-radius: 5px;
+  width: 99%;
+  margin-top: -1%;
+}
+.BoxInfo i{
+  display: inline-block;
+  font-size: 30px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+.BoxInfo h1{
+  display: inline-block;
+  margin-left: 0.2%;
+  font-size: 30px;
+  padding-left: 20px;
+}
+.BoxInfo p{
+  display: inline-block;
+  margin-left: 3%;
+  font-weight: bolder;
+}
+.box,.box4,.box2,.box3{
+  background-color: rebeccapurple;
+  display: inline-block;
+  margin-left: 1%;
+  padding-right: 7px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  border-radius: 50%;
+  position: absolute;
+  top: 25%;
+  color: white;
+  border: 1px solid white;
+  cursor: pointer;
+}
+.box2{
+  margin-left: 6.2%;
+}
+.box3{
+  margin-left: 10.8%;
+}
+.box4{
+  margin-left: 15.6%;
+}
+.BoxInfo input{
+  display: inline-block;
+  position: absolute;
+  top: 30%;
+  left: 58%;
+  color: white;
+  width: 35%;
+  height: 45%;
+  border-radius: 10px;
+  border: 1px solid white;
+  padding-left: 10px;
+}
+.BoxInfo button{
+  display: inline-block;
+  position: absolute;
+  top: 30%;
+  left: 93.4%;
+  color: white;
+  width: 5%;
+  padding-left: 4px;
+  border-radius: 10px;
+  height: 47%;
+  padding-top: 4px;
+}
+.Menu{
+  /* background-color: rgba(110, 110, 110, 0.572);
+  backdrop-filter: blur(4px);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 6); */
+  background-color: rgb(64, 61, 61);
+  width: 24%;
+  height: 92%;
+  position: fixed;
+  top: 1px;
+  margin-top: 4%;
+  margin-left: 1px;
+}
+.close{
+  margin-top: 20px;
+  margin-left: 10px;
+  font-size: xx-large;
+  font-weight: bolder;
+  margin-bottom: 20px;
+}
+.MenuBox{
+  margin-top: 3%;
+  font-size: 25px;
+  border-radius: 15px;
+  cursor: pointer;
+  margin-left: 2px;
+  margin-right: 4px;
+  margin-left: 3%;
+}
+.MenuBox:hover,.MenuBox1:hover{
+  font-size: 30px;
+  text-decoration: underline;
+}
+.MenuBox img,.MenuBox1 img{
+  width: 50px;
+  height: 30px;
+  border-radius: 5px;
+  border:2px solid rgba(110, 110, 110, 0.572);
+}
+.data{
+  position: absolute;
+  top: 10%;
+  left: 25%;
+}
+.data h1{
+  font-size: 260%;
+}
+.boxInfo{
+  background-color: rgba(110, 110, 110, 0.572);
+  backdrop-filter: blur(4px);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 6); 
+  width: 280px;
+  font-size: 8px;
+  font-weight: lighter;
+  border-radius: 10px;
+  text-align: center;
+  display: inline-block;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  border: 2px solid black;
+}
+.boxInfo h1{
+  margin-top: -1px;
+  font-weight: 500;
+  padding-left: 5px;
+}
+.boxInfo img{
+  width: 280px;
+  border-radius: 10px;
+  height: 220px;
+}
+.boxInfo p{
+  font-size: 20px;
+  padding-left: 5px;
+  margin-top: -6%;
+}
+.boxInfo big{
+  font-size: 20px;
+}
+.boxInfo small{
+  font-size: 20px;
+}
